@@ -1,0 +1,3 @@
+/*!create by yaopan 2017-08-20*/
+
+module.exports=function(s){s.initConfig({uglify:{options:{banner:'/*!create by yaopan <%= grunt.template.today("yyyy-mm-dd")%>*/\n'},static_mappings:{files:[{src:"js/index.js",dest:"build/index.min.js"},{src:"js/main.js",dest:"build/main.min.js"}]}},concat:{bar:{src:["build/*.js"],dest:"dest/all.min.js"}}}),s.loadNpmTasks("grunt-contrib-uglify"),s.loadNpmTasks("grunt-contrib-concat"),s.registerTask("default",["uglify","concat"])};
