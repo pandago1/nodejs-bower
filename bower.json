@@ -1,0 +1,20 @@
+{
+  "name": "grunttest",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Panda <258730525@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3"
+  }
+}
