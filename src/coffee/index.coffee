@@ -1,0 +1,10 @@
+class index
+	constructor: ->
+		console.log 123
+	testOne: ->
+		console.log 456
+	testTow: ->
+		console.log 789
+	testTheer: ->
+		console.log 101
+mew index()
